@@ -1,0 +1,98 @@
+.title img{
+    height: 40px;
+    width: 40px;
+}
+header{
+    height: 3%;
+    order: 1;
+}
+header h1{
+    top: 12px;
+}
+main{
+    display: flex;
+    height: 90%;
+    order: 2;
+    background-color: antiquewhite;
+    background-image: url("../img/cross.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+footer{
+    order: 3;
+    background-color: #202020;
+    color : white;
+    float: left;
+}
+footer p{
+    text-align: center;
+}
+.title{
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+}
+main img{
+    align-items:center;
+
+}
+
+html, body {
+    height: 150%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.down{
+    display: flex;
+    justify-content: space-between;
+}
+.down ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+.down ul li {
+    display: flex;
+    justify-content: space-between;
+}
+.down li a{
+    display: inline-block;
+}
+.down a:hover{
+   margin-top: 10px;
+}
+.down img{
+    height: 20px;
+    width: 20px;
+}
+
+
+.title ul {
+    list-style-type: none;
+}
+.top-right li {
+    float: left;
+    position: relative;
+}
+.top-right li :hover{
+    border-bottom: 1px solid blueviolet;
+}
+.adresse{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.adresse p{
+    align-items: start;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}

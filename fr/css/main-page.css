@@ -1,0 +1,118 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+html{
+    font-family: 'Droid Arabic Kufi', serif;
+}
+header {
+    height: auto;
+    order: 1;
+}
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 30px;
+    height: calc(190vh - 50px);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+main{
+    order: 2;
+}
+main video{
+    width: 100%;
+    height: auto;
+}
+main .middle-img{
+    align-items: left;
+    margin: 15%;
+    margin-top: 15%;
+}
+footer{
+    order: 3;
+    background-color: #202020;
+    color : white;
+    float: left;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    margin: 10px;
+    font-family: 'DS Arabic', sans-serif;
+}
+
+
+.overlayText {
+    position: absolute;
+    bottom: 50%;
+    z-index: 1;
+  }
+  
+#topText {
+    color: white;
+    font-size: 42px;
+    align-self: center;
+}
+.title{
+    display: flex;
+    height: 45px;
+    justify-content: space-around;
+    order: 1;
+    margin-top: 20px;
+}
+
+/* main img{
+    align-items:center;
+
+} */
+.down{
+    display: flex;
+    justify-content: space-between;
+}
+html, body {
+    height: 150%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.down ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.down ul li {
+    float: left;
+}
+.down li a{
+    display: inline-block;
+}
+.down img{
+    height: 25px;
+    width: 20px;
+}
+
+
+.title ul {
+    list-style-type: none;
+}
+.top-right li {
+    float: left;
+    position: relative;
+    padding-left: 11px;
+}
+header .fit-picture{
+    max-height:"120px" ;
+    max-width:"180px";
+    image-rendering: auto;
+}
+footer p{
+    text-align: center;
+}

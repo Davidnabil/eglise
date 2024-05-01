@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/main-page-1.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+<header>
+<div class="title">
+    <a href="index.html"><img src="img/Top-cross.png" alt="cross" style="width:46px;height:46px;"></a>
+    <div class="top-right">
+        <ul>
+        <li><a href="list/chant.php">ترنيم و الحان</a></li>
+        <li><a href="https://www.instagram.com/david.nabel/">معرفه المزيد</a></li>
+        <li><a href="https://www.instagram.com/david.nabel/">الأجبية | كتاب السبع صلوات</a></li>
+        <li><a href="index.html"><img src="img/sd.png" alt="cross" ></a></li>
+        <li><a href="fr/index.php"><img src="img/fr.png" alt="cross" ></a></li>
+    </ul>
+    </div>
+</div>
+</header>
+
+<main>
+<div class="middle">
+<video autoplay muted loop>
+    <source src="img/IMG_3227 (2).MOV" type="video/mp4" />
+    </video>
+    <div class="overlayText">
+        <p id="topText">كنيسه السيدة العذراء مريم ليون فرنسا</p>
+    </div>
+</div>
+
+<div class="middle-img">
+        <img src="img/eglise1.jpeg" alt="alhaikal" width="500" height="600">
+        <p>Un texte est une série orale ou écrite de mots perçus comme constituant un ensemble cohérent, porteur 
+            de sens et utilisant les structures propres à une langue (conjugaisons, construction et association des phrases…)1.
+            Un texte n'a pas de longueur déterminée sauf dans le cas de poèmes à forme fixe comme le sonnet ou le haïku.
+            L'étude formelle des textes s'appuie sur la linguistique, qui est l'approche scientifique du langage.</p>
+            <a href="https://www.instagram.com/david.nabel/">معرفه المزيد</a><br>
+
+        <img src=img/eglise.jpg alt="eglise">
+        <p>Un texte est une série orale ou écrite de mots perçus comme constituant un ensemble cohérent, porteur 
+            de sens et utilisant les structures propres à une langue (conjugaisons, construction et association des phrases…)1.
+            Un texte n'a pas de longueur déterminée sauf dans le cas de poèmes à forme fixe comme le sonnet ou le haïku.
+            L'étude formelle des textes s'appuie sur la linguistique, qui est l'approche scientifique du langage.</p>
+            <a href="https://www.instagram.com/david.nabel/">معرفه المزيد</a><br>
+
+        <img src=img/eglise.jpg alt="eglise">
+        <p>Un texte est une série orale ou écrite de mots perçus comme constituant un ensemble cohérent, porteur 
+            de sens et utilisant les structures propres à une langue (conjugaisons, construction et association des phrases…)1.
+            Un texte n'a pas de longueur déterminée sauf dans le cas de poèmes à forme fixe comme le sonnet ou le haïku.
+            L'étude formelle des textes s'appuie sur la linguistique, qui est l'approche scientifique du langage.</p>
+            <a href="https://www.instagram.com/david.nabel/">معرفه المزيد</a><br>
+</div>
+
+</main>
+
+<footer>
+    <div class="adresse">
+        <div>
+            <p>6 Chemin Des Plates</p>
+            <p>69120 Vaulx-En-Velin</p>
+            <p>Rhône France</p>
+            <p>01-23-45-67-89</p>
+            <p> 0123456789@test.fr</p>
+        </div>
+        <div>
+            <p>Messages us !</p>
+            <p>give us your opinian</p>
+            <input type="text" placeholder="Tell us !" /><input type="button" value="Submit" />
+
+        </div>
+
+</div>
+    <div  class="down">
+    <ul>
+        <li><a href="https://www.instagram.com/eglisedelaviergemarie/"><img src="img/instgram.png" alt="cross"></a></li>
+        <li><a href="https://www.facebook.com/viergemarie.stantoine"><img src="img/face.png" alt="cross"></a></li>
+        <li><a href="https://www.facebook.com/viergemarie.stantoine"><img src="img/whats.png" alt="cross"></a></li>
+    </ul>
+    <p>Copyright ©2023. All Rights Reserved to David</p>
+</div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        let video = document.querySelector('video');
+        
+        // Set the default playing speed
+        video.defaultPlaybackRate = 0.6
+        
+        // Loading the video after setting 
+        video.load();
+        
+        function increase() {
+        
+            // Increasing the playing speed by 1
+            video.playbackRate += 1;
+        }
+        
+        function decrease() {
+        
+            // Decreasing the playing speed by 1
+            if (video.playbackRate > 1)
+                video.playbackRate -= 1;
+        }
+    </script>
+</body>
+</html>

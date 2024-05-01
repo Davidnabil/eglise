@@ -1,0 +1,73 @@
+.title img{
+    height: 40px;
+    width: 40px;
+}
+header{
+    height: 3%;
+    order: 1;
+}
+header h1{
+    top: 12px;
+}
+main{
+    display: flex;
+    height: 90%;
+    order: 2;
+    background-color: antiquewhite;
+    background-image: url("../img/cross.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+footer{
+    height: 3%;
+    order: 3;
+}
+.title{
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+}
+main img{
+    align-items:center;
+
+}
+.down{
+    display: flex;
+    justify-content: space-between;
+}
+html, body {
+    height: 150%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.down ul {
+    list-style-type: none;
+}
+.down li {
+    float: left;
+}
+.down li a{
+    display: inline-block;
+}
+.down li a img{
+    height: 30px;
+    width: 30px;
+}
+
+
+.title ul {
+    list-style-type: none;
+}
+.top-right li {
+    float: left;
+    position: relative;
+    padding-left: 11px;
+}
